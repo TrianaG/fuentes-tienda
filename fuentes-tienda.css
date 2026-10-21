@@ -1,0 +1,87 @@
+/* ===== FUENTES PROPIAS (GitHub + jsDelivr) =====
+   Reemplazá TU-USUARIO por tu usuario de GitHub (en todas las líneas). */
+
+@font-face {
+  font-family: 'Le Jardin Secret';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/le-jardin-secret-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-extrabold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-light-italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-bold-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kefa III';
+  src: url('https://cdn.jsdelivr.net/gh/TU-USUARIO/fuentes-tienda/kefa-iii-extrabold-italic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ===== EJEMPLO DE USO (ajustá según dónde va cada una) ===== */
+
+/* Textos */
+body, p, a, li, span, input, button, label, select, textarea {
+  font-family: 'Kefa III', serif !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6,
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+  font-family: 'Le Jardin Secret', serif !important;
+}
